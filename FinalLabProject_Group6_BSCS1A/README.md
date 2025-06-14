@@ -120,5 +120,7 @@ The core logic of the calculator is encapsulated within the `FinalLabProject_Gro
 ## Group 6 - BSCS1A
 
 This project was developed by Group 6 from BSCS1A.
-
+   * Joshua Dredd Stephen B. De Guzman
+   * Charles Derrick A. Garcia
+   * Marc Andrei G. Bersabe
 ---
