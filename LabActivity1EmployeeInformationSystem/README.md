@@ -1,69 +1,99 @@
-# Employee Information System
+# Lab Activity 1: Employee Information System
 
-This repository contains a simple Java console application designed to collect and display basic employee information, including their daily salary. This project serves as a fundamental example of user input handling and basic data processing in Java.
+This folder contains a basic Java program created for a laboratory activity. The goal of this program is to simulate an **Employee Information System** that collects personal and work-related input from the user and calculates the employee's daily salary.
 
----
+## 📄 File
+- `LabActivity1EmployeeInformationSystem.java`
 
-## Project Structure
+## ✅ Program Overview
+This Java console-based program uses `Scanner` to capture user input and calculates the daily salary using the number of hours worked and the hourly wage.
 
-This project consists of a single Java file:
+### It collects:
+- First Name and Last Name
+- Age
+- Hours Worked
+- Hourly Wage
 
-* `LabActivity1EmployeeInformationSystem.java`: Contains the main application logic for gathering employee details and calculating their daily salary.
-
----
-
-## Features
-
-The Employee Information System performs the following actions:
-
-* **User Input**: Prompts the user to enter their **first name**, **last name**, **age**, **hours worked**, and **hourly wage**.
-* **Data Collection**: Utilizes the `Scanner` class to efficiently capture various data types (String, int, float) from the console.
-* **Information Display**: Presents a formatted summary of the collected employee data, including their full name and age.
-* **Salary Calculation**: Automatically calculates the employee's **daily salary** based on the entered hours worked and hourly wage.
-* **Formatted Output**: Displays the daily salary formatted to two decimal places for clear financial representation.
-* **Resource Management**: Properly closes the `Scanner` object to prevent resource leaks.
+### It calculates:
+- Daily Salary (Hours Worked × Hourly Wage)
 
 ---
 
-## How to Run
+## ⚙️ Features
 
-To run this Java application, follow these steps:
-
-1.  **Ensure Java is Installed**: Make sure you have a Java Development Kit (JDK) installed on your system. You can download it from the [Oracle website](https://www.oracle.com/java/technologies/downloads/) or use an open-source alternative like OpenJDK.
-
-2.  **Save the Source Code**: Save the provided Java code into a file named `LabActivity1EmployeeInformationSystem.java`.
-
-3.  **Compile the Code**: Open a terminal or command prompt, navigate to the directory where you saved the file, and compile the Java code using the Java compiler:
-
-    ```bash
-    javac LabActivity1EmployeeInformationSystem.java
-    ```
-
-4.  **Run the Application**: After successful compilation, run the application using the Java Virtual Machine:
-
-    ```bash
-    java LabActivity1EmployeeInformationSystem
-    ```
-
-    The application will then prompt you to enter the required employee information directly in the console.
+| Feature              | Description |
+|----------------------|-------------|
+| **User Input**       | Captures employee name, age, hours worked, and hourly wage. |
+| **Salary Calculation**| Multiplies hours worked by hourly wage to get daily salary. |
+| **Formatted Output** | Displays the daily salary with two decimal places. |
 
 ---
 
-## Code Explanation
+## 💻 How to Run
 
-The `LabActivity1EmployeeInformationSystem.java` file contains the `main` method, which is the entry point of the application.
+### 🖥️ Prerequisites
+- Java JDK installed (version 8 or higher)
+- A terminal/command prompt or an IDE (e.g., IntelliJ IDEA, Eclipse, VS Code)
 
-* **`import java.util.Scanner;`**: Imports the `Scanner` class, which is essential for reading input from the console.
-* **`Scanner Scanner = new Scanner(System.in);`**: Initializes a `Scanner` object to handle user input from the standard input stream (`System.in`).
-* **Input Prompts**:
-    * `System.out.print("Enter your first name: ");`
-    * `String FirstName = Scanner.nextLine();`
-    * Similar lines are used to collect the last name, age, hours worked, and hourly wage, using appropriate `Scanner` methods like `nextLine()`, `nextInt()`, and `nextFloat()` for each data type.
-* **`System.out.println("\nEmployee Information");`**: Prints a header for the employee information display.
-* **`System.out.println("Full Name : " + FirstName + " " + LastName);`**: Concatenates the first and last names to display the full name.
-* **`System.out.println("Age : " + Age + " years old");`**: Displays the entered age.
-* **`Float DailySalary = HoursWorked * HourlyWage;`**: Calculates the daily salary by multiplying hours worked and hourly wage.
-* **`System.out.printf("Daily Salary: PHP %.2f\n", DailySalary);`**: Uses `printf` for formatted output, ensuring the `DailySalary` is displayed with exactly two decimal places and a "PHP" prefix.
-* **`Scanner.close();`**: Closes the `Scanner` object. This is a crucial step to release system resources associated with the scanner, preventing potential resource leaks.
+### 🔧 Steps via Command Line
+1. Navigate to the directory containing the `.java` file:
+   ```bash
+   cd path/to/your/folder
+   ```
+2. Compile the Java file:
+   ```bash
+   javac LabActivity1EmployeeInformationSystem.java
+   ```
+3. Run the compiled class:
+   ```bash
+   java LabActivity1EmployeeInformationSystem
+   ```
+
+### ▶️ Steps via IDE
+1. Open your preferred Java IDE.
+2. Create a new project or class file named `LabActivity1EmployeeInformationSystem`.
+3. Paste the code into the editor.
+4. Click **Run** or **Execute**.
 
 ---
+
+## 🧾 Sample Output
+
+```
+Enter your first name: Joshua
+Enter your last name: De Guzman
+Enter your age: 25
+Enter hours worked: 8
+Enter hourly wage: 120
+
+Employee Information
+---------------------
+Full Name   : Joshua De Guzman
+Age         : 25 years old
+Daily Salary: PHP 960.00
+```
+
+---
+
+## 👨‍🎓 Author
+
+**Name:** Joshua Dredd Stephen B. De Guzman  
+**Course:** Bachelor of Science in Computer Science  
+**Activity:** Lab Activity 1 – Java Programming
+
+---
+
+## 📁 Repository Structure
+
+```
+JavaLabActivities/
+└── LabActivity1EmployeeInformationSystem/
+    ├── LabActivity1EmployeeInformationSystem.java
+    └── README.md
+```
+
+---
+
+## 📌 Notes
+- Great for beginners to practice Java basics such as user input, variables, arithmetic operations, and formatted output.
+- This activity lays the foundation for more advanced versions like Lab Activity 2, which adds multi-level salary computations.
