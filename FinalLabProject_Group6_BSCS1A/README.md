@@ -124,3 +124,9 @@ This project was developed by Group 6 from BSCS1A.
    * Charles Derrick A. Garcia
    * Marc Andrei G. Bersabe
 ---
+## Note
+During the development of this Java calculator project, we encountered a compatibility issue with the ScriptEngine API, which was not supported or caused errors under our installed JDK version. To resolve this, we used AI tools to help reconstruct the evaluation logic in a way that works properly with our environment.
+
+We also used AI assistance in refining some design elements — such as applying icons to buttons and improving layout spacing — to enhance the overall user interface and user experience.
+
+While AI was used for compatibility fixes and visual improvements, the rest of the code, including the structure, logic flow, and features, was developed solely by us as the project developers. The use of AI was limited to support and refinement purposes only, ensuring we retained full understanding and control over the project.
