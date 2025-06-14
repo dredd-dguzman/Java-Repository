@@ -12,6 +12,20 @@ This repository contains a collection of laboratory activities and major project
 ---
 
 
+## 📁 Repository Structure
+
+Each activity or project is located in its own folder and  includes:
+
+- Java source code files (`.java`)
+- A `README.md` file describing:
+  - Objectives
+  - Key Java concepts
+  - Features and functionality
+  - How to compile and run
+ 
+
+---
+
 ## 📌 Contents
 ### 🧪 Laboratory Activities
 
@@ -29,13 +43,15 @@ Below are examples of lab exercises included in this repository:
 ---
 ### 🎟️ Midterm Project – Ticketing System  
 **File:** `MyMidtermLabExam.java` 
+
 **Description:**  
 A basic ticketing system focusing on data entry, storage, and display using Java constructs. Emphasizes file handling and logic flow.
 
 ---
 
 ### 🧮 Final Project – Calculator Application  
-**File:** `FinalLabProject_Group6_BSCS1A`  
+**File:** `FinalLabProject_Group6_BSCS1A` 
+
 **Description:**  
 A full-featured calculator built using Java Swing. It includes standard arithmetic operations and demonstrates GUI layout, event-driven programming, and clean UI design.
 
