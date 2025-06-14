@@ -1,6 +1,6 @@
 # 📚 Java Programming Repository
 
-This repository contains a collection of laboratory activities and major projects developed during a Java programming course. It demonstrates a variety of Java concepts — from basic programming logic to advanced GUI application development.
+This repository contains a collection of laboratory activities and major projects developed during a Java programming course. It demonstrates a variety of Java concepts; from basic programming logic to advanced GUI application development.
 
 ---
 
