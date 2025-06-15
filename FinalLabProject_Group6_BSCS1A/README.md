@@ -16,7 +16,7 @@ The calculator offers the following key features:
 
 * **Basic Arithmetic Operations**: Supports addition (`+`), subtraction (`-`), multiplication (`x`), division (`÷`), and modulo (`%`).
 * **Unary Operations**: Includes functions for square root (`√`), squaring (`x²`), and reciprocal (`1/x`).
-* **Sign Toggle**: Easily change the sign of the current number using the `+/-` button.
+* **Sign Toggle**: Easily change the sign of the current number (positive/negative) using the `+/-` button.
 * **Clear Functions**: `C` (Clear All) and `CE` (Clear Entry) buttons for input management.
 * **Backspace Functionality**: `←` button to remove the last entered digit or operator.
 * **Calculation History**:
@@ -74,7 +74,7 @@ The core logic of the calculator is encapsulated within the `FinalLabProject_Gro
         * `C` and `CE`: Clears the current input and resets the error state.
         * `←`: Implements backspace functionality.
         * `=`: Triggers the evaluation of the expression using the `eval()` method, adds the expression and result to `historyList`, updates `historyArea`, and sets the result as the new `currentInput`. Includes error handling for invalid expressions.
-        * `+/-`: Toggles the sign of the current number.
+        * `+/-`: Toggles the sign (positive/negative) of the current number.
         * `√`, `x²`, `1/x`: Calls the `unary()` method to perform the respective unary operation.
         * Digits and Operators: Appends them to the `currentInput` `StringBuilder`.
     * Updates the `display` `JTextField` with the `currentInput`.
