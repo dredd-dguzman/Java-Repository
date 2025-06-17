@@ -57,7 +57,7 @@ public class LabActivity5QuizAppAWT extends Frame implements ActionListener {
         // Create and style each checkbox
         for (int i = 0; i < 4; i++) {
             optionButtons[i] = new Checkbox("", optionsGroup, false); // Initialize as unselected
-            optionButtons[i].setFont(new Font("Arial", Font.PLAIN, 16)); // Custom font
+            optionButtons[i].setFont(new Font("Arial", Font.PLAIN, 15)); // Custom font
             optionButtons[i].setForeground(Color.BLUE); // Custom text color
             optionsPanel.add(optionButtons[i]); // Add to panel
         }
