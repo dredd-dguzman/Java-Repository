@@ -29,9 +29,9 @@ This GUI application presents a **3-question quiz**. Each question offers four o
 
 ## ❓ Sample Questions
 
-1. What is the capital of France?  
-2. Which language is used for Android development?  
-3. What is the result of 2 + 2 * 2?
+1. What does “CPU” stand for?  
+2. Which data structure uses FIFO (First In First Out)?
+3. What is the purpose of an operating system?
 
 Each has 4 multiple-choice options rendered via checkboxes.
 
@@ -60,10 +60,10 @@ java LabActivity5QuizAppAWT
 ## 🧾 Example Output
 
 ```
-Q1: What is the capital of France?
-[A] Paris  [B] Rome  [C] Berlin  [D] Madrid
+Q1: What does “CPU” stand for?
+[A] Central Process Unit  [B] Central Processing Unit  [C] Computer Power Unit  [D] Control Processing Utility
 
-[User selects "A. Paris", clicks Next...]
+[User selects "B. Central Processing Unit", clicks Next...]
 
 ...
 
