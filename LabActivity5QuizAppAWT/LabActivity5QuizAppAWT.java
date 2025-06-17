@@ -44,7 +44,7 @@ public class LabActivity5QuizAppAWT extends Frame implements ActionListener {
         // Create the panel for the question
         Panel questionPanel = new Panel();
         questionLabel = new Label(questions[currentQuestion], Label.CENTER); // Set first question
-        questionLabel.setFont(new Font("Arial", Font.BOLD, 18)); // Custom font
+        questionLabel.setFont(new Font("Arial", Font.BOLD, 16)); // Custom font
         questionPanel.setLayout(new BorderLayout());
         questionPanel.add(questionLabel, BorderLayout.CENTER);
         add(questionPanel, BorderLayout.NORTH); // Add to top
